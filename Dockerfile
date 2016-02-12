@@ -17,7 +17,6 @@ RUN apk update && \
     mg \
     unzip \
     rsync && \
-  ln -s /usr/bin/mg /usr/local/bin/emacs && \
   rm -rf /var/cache/apk/*
 
 CMD ["/bin/bash"]

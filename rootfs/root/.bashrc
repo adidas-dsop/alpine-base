@@ -32,6 +32,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias rgrep="grep -rn"
 alias history="fc -l 1"
+alias emacs="mg"
 
 bash_prompt() {
   local NONE="\[\033[0m\]"
