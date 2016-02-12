@@ -15,6 +15,7 @@ RUN apk update && \
     logrotate \
     tar \
     mg \
+    unzip \
     rsync && \
   ln -s /usr/bin/mg /usr/local/bin/emacs && \
   rm -rf /var/cache/apk/*
