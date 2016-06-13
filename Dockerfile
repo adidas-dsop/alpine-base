@@ -16,6 +16,7 @@ RUN apk update && \
     tar \
     mg \
     unzip \
+    s6 \
     rsync && \
   rm -rf /var/cache/apk/*
 
