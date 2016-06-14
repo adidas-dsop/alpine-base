@@ -11,6 +11,7 @@ RUN apk update && \
     bash-completion \
     ncurses \
     vim \
+    wget \
     gettext \
     logrotate \
     tar \
@@ -18,6 +19,7 @@ RUN apk update && \
     unzip \
     s6 \
     rsync && \
-  rm -rf /var/cache/apk/*
+  rm -rf /var/cache/apk/* && \
+  update-ca-certificates
 
 CMD ["/bin/bash"]
