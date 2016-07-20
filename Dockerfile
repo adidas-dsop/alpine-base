@@ -10,13 +10,11 @@ RUN apk update && \
     bash \
     bash-completion \
     ncurses \
-    vim \
-    wget \
     gettext \
-    logrotate \
     tar \
     mg \
     unzip \
+    jq \
     s6 \
     rsync && \
   rm -rf /var/cache/apk/* && \
