@@ -1,5 +1,7 @@
 FROM alpine:edge
 
+ENV BASE_VERSION 0.0.1
+
 ADD rootfs /
 
 RUN apk update && \
