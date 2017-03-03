@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:3.5
 
 ENV BASE_VERSION 0.0.1
 
